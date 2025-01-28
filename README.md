@@ -20,4 +20,6 @@ $$tmp{\theta 1} = learningRate * \frac{1}{m} \sum_{i=0}^{m-1} (estimatePrice(mil
 
 To avoid overflow, I need to normalize my values in program 2 to calculate my thetas and denormalize my thetas to use them. For this, I use these formulas :
 
-$$km[i] = (km[i] - averageKilometer) / standardDeviation$$
+$$km[i] = (km[i] - averageKilometer) / standardDeviationKm$$
+$${\theta 1} = tmp{\theta 1} * \frac{1}{standardDeviationKm}$$
+$${\theta 0} = tmp{\theta 0} - {\theta 1} * averageKilometer$$
