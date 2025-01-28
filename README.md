@@ -25,4 +25,4 @@ $$price[i] = (price[i] - avaragePrice) / standarPrice$$
 
 $${\theta 1} = tmp{\theta 1} * \frac{standardDeviationPrice}{standardDeviationKm}$$
 
-$${\theta 0} = tmp{\theta 0} * standardDeviationPrice - {\theta 1} * averageKilometer * standardDeviationPrice$$
+$$\left{\theta 0} = tmp{\theta 0} * standardDeviationPrice - {\theta 1} * averageKilometer * standardDeviationPrice$$
