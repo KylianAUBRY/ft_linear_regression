@@ -38,5 +38,5 @@ $$
 $$
 
 $$
-{\theta 0} = tmp{\theta 0} * standardDeviationPrice + avarage_price - {\theta 1} * averageKilometer
+{\theta 0} = tmp{\theta 0} * standardDeviationPrice + avaragePrice - {\theta 1} * averageKilometer
 $$
