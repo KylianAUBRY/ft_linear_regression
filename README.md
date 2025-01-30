@@ -42,6 +42,7 @@ $$
 $$
 
 To calculate the standard deviation:
-$$
+
+$
 \sigma = \sqrt{\frac{\sum (x_i - \bar{x})^2}{N}}
-$$
+$
